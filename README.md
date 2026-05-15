@@ -1,17 +1,19 @@
 # Visualizaciones-python
 
-Repository focused on data analysis and visualization using Python.
+Repository focused on data analysis, visualization, and exploratory data analysis (EDA) using Python and real-world datasets.
 
-This project contains practical exercises and exploratory data analysis (EDA) notebooks developed with different datasets in order to practice:
+This project contains practical notebooks developed to strengthen data analysis skills through different visualization techniques, statistical exploration, and data-cleaning workflows.
+
+The repository includes exercises related to:
 
 - Data cleaning
 - Exploratory Data Analysis (EDA)
 - Statistical summaries
-- Data visualization
 - Correlation analysis
 - Time series analysis
 - Geographic visualizations
 - Interactive charts
+- Business-oriented insights
 
 ---
 
@@ -27,7 +29,7 @@ This project contains practical exercises and exploratory data analysis (EDA) no
 
 ---
 
-# Project Structure
+# Repository Structure
 
 ```bash
 datasets/
@@ -36,70 +38,19 @@ datasets/
 ├── UsedCars.csv
 ├── WorldCups.csv
 ├── GlobalLandTemperaturesByCountry.csv
+├── vgsales.csv
 └── ...
 
 notebooks/
 │
 ├── eda/
+│   ├── eda_movies.ipynb
+│   ├── eda_used_cars.ipynb
+│   └── ...
+│
 ├── seaborn/
 ├── matplotlib/
 ├── mapas/
 └── series-temporales/
-```
 
----
-
-# Included Analysis
-
-## EDA
-- Missing values analysis
-- Data cleaning
-- Descriptive statistics
-- Correlation analysis
-
-## Visualizations
-- Histograms
-- Scatterplots
-- Countplots
-- Heatmaps
-- Time series charts
-- Interactive maps
-- Geographic visualizations
-
----
-
-# Example Topics Explored
-
-- Movie ratings and profitability
-- Used car market analysis
-- Global temperatures over time
-- Video game sales
-- World Cup statistics
-
----
-
-# Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/beatriangu/Visualizaciones-python.git
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
----
-
-# Purpose
-
-The objective of this repository is to practice real-world data analysis workflows and improve skills in Python data visualization and exploratory analysis.
+images/
