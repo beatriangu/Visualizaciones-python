@@ -2,7 +2,7 @@
 
 Repository focused on data analysis, exploratory data analysis (EDA), and data visualization using Python and real-world datasets.
 
-This project contains practical Jupyter notebooks developed to improve analytical thinking, statistical interpretation, and visualization skills through hands-on exploration of datasets from different domains such as climate, entertainment, business, geography, and consumer behavior.
+This project contains practical Jupyter notebooks developed to improve analytical thinking, statistical interpretation, and visualization skills through hands-on exploration of datasets from different domains such as climate, entertainment, business, geography, consumer behavior, and temporal analysis.
 
 The repository serves both as:
 - a personal learning journey in Data Analytics and Visualization,
@@ -54,19 +54,22 @@ datasets/
 ├── Facturacionagua.csv
 ├── ProgramLanguages.csv
 ├── apartment_cost_list.csv
+├── accidentes_2022.csv
 └── ...
 
 notebooks/
 │
 ├── eda/
+│   ├── Accidentes.ipynb
+│   ├── eda_apartment_costs.ipynb
 │   ├── eda_movies.ipynb
+│   ├── eda_programming_languages.ipynb
 │   ├── eda_used_cars.ipynb
 │   ├── eda_videogame_sales.ipynb
-│   ├── eda_programming_languages.ipynb
-│   ├── eda_apartment_costs.ipynb
 │   └── ...
 │
 ├── seaborn/
+│   ├── 02 Seaborn.ipynb
 │   ├── seaborn_movies_visualizations.ipynb
 │   ├── seaborn_used_cars.ipynb
 │   └── ...
@@ -74,15 +77,20 @@ notebooks/
 ├── matplotlib/
 │   ├── matplotlib_basics.ipynb
 │   ├── advanced_3d_visualizations.ipynb
+│   ├── Gráfico 3d rotable.ipynb
 │   └── ...
 │
 ├── mapas/
 │   ├── global_temperature_folium.ipynb
 │   ├── world_temperatures_map.ipynb
+│   ├── Mapa coroplético de Euskadi.ipynb
+│   ├── Mapa globo.ipynb
 │   ├── Mapas con Folium.ipynb
 │   └── ...
 │
 └── series-temporales/
+    ├── Gráficos Interactivos (Series Temporales).ipynb
+    ├── Series Temporales (Gráficos).ipynb
     ├── global_temperatures_analysis.ipynb
     ├── water_billing_analysis.ipynb
     └── ...
@@ -114,15 +122,13 @@ Interactive visualizations
 Time series analysis of historical climate data and global temperatures.
 
 Topics explored:
-
 Global temperature evolution
 Climate trend analysis
 Country-based comparisons
 Temporal aggregations
 Decade-based patterns
-
+Correlation between climate variables
 Technologies used:
-
 Pandas
 Matplotlib
 Seaborn
@@ -131,7 +137,6 @@ Seaborn
 Exploratory analysis and visualization of water consumption and billing data.
 
 Topics explored:
-
 Consumption distributions
 Boxplots and outlier detection
 Correlation heatmaps
@@ -139,9 +144,7 @@ Pairplots
 Consumption trends over time
 Consumption comparison by tariff
 Detection of anomalous consumption patterns
-
 Technologies used:
-
 Pandas
 Matplotlib
 Seaborn
@@ -150,12 +153,16 @@ Seaborn
 Interactive geographic analysis using Folium and map-based visualizations.
 
 Examples include:
-
 Global temperature maps
 Choropleth maps
 Interactive markers
 Geographic climate exploration
 Spatial data visualization
+Interactive world maps
+Technologies used:
+Folium
+OpenStreetMap
+Pandas
 🎬 Example Topics Explored
 Movie ratings and profitability
 Used car market analysis
@@ -168,6 +175,7 @@ Programming language trends
 Water consumption behavior
 Tariff-based consumption analysis
 Geographic and temporal patterns
+Climate data visualization
 ⚙️ Installation
 
 Clone the repository:
@@ -195,6 +203,7 @@ Statistical reasoning
 Analytical storytelling
 Python data libraries
 Working with real datasets
+Temporal and geographic analysis
 Data interpretation and communication
 
 This repository also serves as a continuously evolving portfolio documenting progress in Python-based data analysis and visualization.
